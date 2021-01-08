@@ -1,13 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hello World">
+  <meta name="keywords" content="Hello World, cse 341, Web Backend Development II">
+  <title>Hello World!</title>
+  <style>
+  	*{
+  	box-sizing: border-box;
+  	padding: 0;
+  	margin: 0;	
+  	}
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Hello!</title>
-    </head>
+    .grid-container {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 10px;
+    width: 100vw;
+    height: 100vh;
+	background-color: #FFFFFF;
+	}
 
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+	.grid-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	padding: 20px;
+	font-size: 35px;
+	text-align: center;
+	transition: .5s;
+	transition-timing-function: ease-in;
+	}
+
+	div.grid-item:hover {
+	background-color: #D1CFCF;
+	color: #FFFFFF;
+    }
+
+  </style>
+
+  <body>
+    <div class="grid-container">
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>  
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>  
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>  
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>  
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>  
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>  
+      <div class="grid-item"></div>
+  	  <div class="grid-item">Hello World!</div>
+  	  <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>  
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>  
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>  
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>  
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>  
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>
+      <div class="grid-item"></div>  
+      <div class="grid-item"></div> 
+	</div>
+  </body>
 
 </html>
