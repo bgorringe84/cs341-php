@@ -13,7 +13,7 @@
 <?php
 $d1=strtotime("April 08");
 $d2=ceil(($d1-time())/60/60/24);
-echo "There are " . $d2 ." days until 4th of July!";
+echo "There are " . $d2 ." days until End of Semester!";
 ?>
 </body>
 </html>
