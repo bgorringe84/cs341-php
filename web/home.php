@@ -10,12 +10,12 @@
   <script src="script.js"></script>
 </head>
 <body>
-<div class="days_left">
-<?php
-$d1=strtotime("April 08");
-$d2=ceil(($d1-time())/60/60/24);
-echo "There are " . $d2 ." days until End of Semester!";
-?>
-</div>
+  <div class="days_left">
+    <?php
+    $d1=strtotime("April 08");
+    $d2=ceil(($d1-time())/60/60/24);
+    echo "There are " . $d2 ." days until End of Semester!";
+    ?>
+  </div>
 </body>
 </html>
