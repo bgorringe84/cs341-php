@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name= "description" content="02 Teach Team Activity">
+  <meta name="keywords" content="CSE 341, Homepage, Brandon Gorringe, Web Backend Development II, 02 Teach, Team Activity ">
+  <title> 02 Teach : Team Activity </title>
+  <link rel="stylesheet" type="text/css" href="02style.css">
+  <script src="02script.js"></script>
+</head>
+<body>
+   <div class ="div_container" id ="first_div">
+   </div>
+   <div class ="div_container" id ="second_div">
+   </div>
+   <div class ="div_container" id ="third_div">
+   </div>
+   <button type="button" onclick="alert('Clicked!')">Click Me</button>
+
+</body>
+</html>
