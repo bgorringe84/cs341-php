@@ -1,4 +1,7 @@
-document.getElementById("myBtn").addEventListener("click", displayAlert);
-funcion displayAlert(){
-   alert('Clicked');
+function displayAlert(){
+   alert("Clicked");
+}
+
+function changeColor(color){
+   document.getElementById("first_div").style.backgroundColor = color;
 }

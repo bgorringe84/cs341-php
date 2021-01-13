@@ -11,11 +11,19 @@
 </head>
 <body>
    <div class="grid-container">
-      <div class="grid-item" id="first_div"></div>
-      <div class="grid-item" id="second_div"></div>
-      <div class="grid-item" id="third_div"></div>
+      <div class="grid-item" id="first_div">Div 1</div>
+      <div class="grid-item" id="second_div">Div 2</div>
+      <div class="grid-item" id="third_div">Div 3</div>
    </div>
-   <button id="myBtn">Click Me</button>
-
+   <div class="button-container">
+      <button id="myBtn" onclick="displayAlert()">Click Me</button>
+   </div>
+   <div class = "form">
+      <form id ="color-change">
+         <label for="color">Color Code:</label>
+         <input type="text" id="color" name="color">
+         <input id="submit" type="button" value="Change color" onclick="changeColor(document.getElementById('color').value)">
+      </form>
+   </div>
 </body>
 </html>
