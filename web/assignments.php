@@ -40,14 +40,11 @@
   </div>
 </nav>
 
-<div class="container d-flex h-100">
-    <div class="row align-self-center w-100">
-        <div class="col-6 mx-auto">
-            <div class="jumbotron">
-                <h1 class="display-4">Coming Soon</h1>
-            </div>
-        </div>
-    </div>
+<div class="card bg-dark text-white">
+  <img src="Construction-Pic.png" class="card-img" alt="Coming Soon">
+  <div class="card-img-overlay">
+    <!-- overlay text can go here -->
+  </div>
 </div>
 
 
