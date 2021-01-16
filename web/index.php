@@ -30,7 +30,11 @@
         </li>
       </ul>
       <span class="navbar-text">
-        Brandon Gorringe
+        <?php
+        $d1=strtotime("April 08");
+        $d2=ceil(($d1-time())/60/60/24);
+        echo "There are " . $d2 ." days until End of Semester!";
+        ?>
       </span>
     </div>
   </div>
