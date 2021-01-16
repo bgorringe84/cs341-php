@@ -40,12 +40,16 @@
   </div>
 </nav>
 
-<div class="card bg-dark text-white">
-  <img src="Construction-Pic.png" class="card-img" alt="Coming Soon">
-  <div class="card-img-overlay">
-    <!-- overlay text can go here -->
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col col-lg-2">
+      <img src="Construction-Pic.png" class="img-fluid" alt="Coming Soon">
+    </div>
   </div>
 </div>
+
+
+
 
 
 
