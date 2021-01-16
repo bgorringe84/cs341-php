@@ -7,6 +7,7 @@
   <meta name="keywords" content="CSE 341, Homepage, Brandon Gorringe, Web Backend Development II, 02 Teach, Team Activity ">
   <title> 02 Teach : Team Activity </title>
   <link rel="stylesheet" type="text/css" href="02style.css">
+  <script src="jquery-3.5.1.min.js"></script>
   <script src="02script.js"></script>
 </head>
 <body>
@@ -17,12 +18,13 @@
    </div>
    <div class="button-container">
       <button id="myBtn" onclick="displayAlert()">Click Me</button>
+      <button id="hideBtn" onclick="hideDiv()">Hide Div3</button>
    </div>
    <div class = "form">
       <form id ="color-change">
          <label for="color">Color Code:</label>
          <input type="text" id="color" name="color">
-         <input id="submit" type="button" value="Change color" onclick="changeColor(document.getElementById('color').value)">
+         <input id="submit" type="button" value="Change color">
       </form>
    </div>
 </body>
