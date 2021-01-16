@@ -41,7 +41,7 @@
 </nav>
 
 <div class="container">
-  <div class="card lg-3" style="max-width: 540px;">
+  <div class="card mb-3" style="max-width: 540px;">
     <div class="row g-0">
       <div class="col-lg-4">
         <img src="profile.jpg" class="img-fluid" alt="Brandon Gorringe">
