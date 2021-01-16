@@ -42,7 +42,7 @@
 
 <div class="container">
   <div class="row justify-content-md-center">
-    <div class="col col-lg-2">
+    <div class="col col-lg-6">
       <img src="Construction-Pic.png" class="img-fluid" alt="Coming Soon">
     </div>
   </div>
