@@ -20,7 +20,7 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
+          <a class="nav-link" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="assignments.php">Assignments</a>
@@ -39,6 +39,13 @@
     </div>
   </div>
 </nav>
+
+<div class="container h-100 d-flex justify-center">
+  <div class="jumbotron my-auto">
+    <h1 class="display-3">Coming soon</h1>
+  </div>
+</div>
+
 
 
 <script src="jquery-3.5.1.min.js"></script>
