@@ -41,21 +41,7 @@
 </nav>
 
 <div class="container-fluid">
-  <div class="row justify-content-md-center">
-    <div class="col col-lg-2">
-      1 of 3
-    </div>
-    <div class="col-md-auto">
-      Variable width content
-    </div>
-    <div class="col col-lg-2">
-      3 of 3
-    </div>
-  </div>
   <div class="row">
-    <div class="col">
-      1 of 3
-    </div>
     <div class="col-md-auto">
       <div class="card bg-light text-black">
         <img src="profile.jpg" class="img-fluid" alt="Brandon Gorringe">
@@ -64,9 +50,6 @@
           <p class="card-text">HomePage for CSE 341 PHP projects</p>
         </div>
       </div>
-    </div>
-    <div class="col col-lg-2">
-      3 of 3
     </div>
   </div>
 </div>
