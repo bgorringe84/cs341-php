@@ -57,12 +57,11 @@
       1 of 3
     </div>
     <div class="col-md-auto">
-      <div class="card bg-dark text-white">
+      <div class="card bg-light text-black">
         <img src="profile.jpg" class="img-fluid" alt="Brandon Gorringe">
         <div class="card-img-overlay">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text">Last updated 3 mins ago</p>
+          <h5 class="card-title">Brandon Gorringe</h5>
+          <p class="card-text">HomePage for CSE 341 PHP projects</p>
         </div>
       </div>
     </div>
