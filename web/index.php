@@ -54,23 +54,6 @@
   </div>
 </div>
 
-<!-- <div class="container-fluid">
-  <div class="card mb-3" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-lg-4">
-        <img src="profile.jpg" class="img-responsive" alt="Brandon Gorringe">
-      </div>
-      <div class="col-lg-8">
-        <div class="card-body">
-          <h5 class="card-title">Brandon Gorringe</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-
 <script src="jquery-3.5.1.min.js"></script>
 <script src="bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js"></script>
 <script src="script.js"></script>
