@@ -58,7 +58,7 @@
     </div>
     <div class="col-md-auto">
       <div class="card bg-dark text-white">
-        <img src="profile.jpg" class="img-responsive" alt="Brandon Gorringe">
+        <img src="profile.jpg" class="img-fluid" alt="Brandon Gorringe">
         <div class="card-img-overlay">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
